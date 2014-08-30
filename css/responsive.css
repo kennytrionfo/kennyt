@@ -1,0 +1,62 @@
+/**********TWO COLUMN LAYOUT FOR CONTACT PAGE*************/
+@media screen and (min-width: 480px) /*This is a media Query rule that says to only add these styles if it's a digital screen and width is at least 480pixis*/
+{
+ /*—————————— first column —————————— */
+#column1 {
+	width: 50%; /*So it takes up half the width of the screen*/
+	float: left;
+}
+/*—————————— second column —————————— */
+#column2 {
+	width: 40%;
+	float: right; /*floating to right just incase there's some browser issues*/
+}
+
+/********** 3* 5 = 15% - 100% = 85% / 3 = 28.3333333333 ************/
+/********** PORTFOLIO PAGE *************/
+#gallery li {
+	width: 28.33333333333%;
+}
+
+#gallery li:nth-child(4n) {
+	clear: left;
+}
+
+/********** ABOUT PAGE *************/
+.profile-pic {
+	float: left;
+	margin: 0 5% 80px 0;
+	}
+}
+
+@media screen and (min-width: 660px) {
+
+/********** HEADER ************/
+	nav {
+		background: none;
+		float: right;
+		font-size: 1.125em;
+		margin-right: 5%;
+		text-align: right;
+		width: 45%;
+	}
+	#logo {
+		float: left;
+		margin-left: 5%
+		text-align: left;
+		width: 45%;
+		font-size: .90em;
+	}
+	h1 {
+		font-size: 1.80em;
+		margin: 20px;
+	}
+	h2 {
+		font-size: 0.825em;
+		margin-bottom: 20px;
+	}
+	header {
+		border-bottom: 5px solid #599a68; /*puts a little 5px border on bottom of header*/
+		margin-bottom: 60px;
+	}
+}

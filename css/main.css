@@ -1,0 +1,193 @@
+/*——————————  GENERAL ——————————*/
+
+body {
+        font-family: 'open', sans-serif;
+    }
+
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+    background:lightblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 252;
+    height:  219;
+    max-width: 100%; /* tells the images to fill the width of their parent container so when shrunk down, the images don't go outside the container */
+}
+
+h3  {
+  margin: 0 0 1em 0; /*this just assures that any h3 elements are always seperated a bit from everything else. */
+}
+
+/*———----————  HEADING —————----———*/
+header {
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+
+#logo{
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Average Sans', sans-serif;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 0.8em;
+}
+
+h2 {
+    font-size: -5px 0 0;
+    font-weight: normal;
+}
+
+/**************
+ NAVIGATION
+**************/
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+}
+
+/**************
+ FOOTER
+**************/
+footer {
+        font-size: 0.75em;
+        text-align: center;
+        clear: both;
+        padding-top: 50px;
+        color: blue ;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+/********** PAGE: PORTFOLIO *************/
+#gallery {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: red;
+    color: yellow;
+}
+
+#gallery li a p {
+    margin: 0;
+    text-align: center;
+    padding: 5%;
+    font-size: 0.75em;
+    color: black;
+    background: lightblue;
+}
+
+/**********PAGE: ABOUT*************/
+.profile-pic {
+    display: block; /*allows us to use auto margins to center it on the page. Images display inline by default but I want this image to take up it's own space w/ it's own width and height. doing this give me more flexibility when setting desktop settings rather then just using inline and centering it on the page. */
+    max-width: 150px;
+    margin: 0 auto 30px;
+    border-radius: 20%;
+    clear: both;
+}
+
+/**********PAGE: CONTACT*************/
+.contact-info{
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+    font-size: 0.9em;
+}
+
+.contact-info li a {
+    display: block; /*Assures that each image takes up space and is seperated a bit from other items so it's easier to see and work with*/
+    min-height: 20px; /*Make sure the icons don't get any shorter than 20px*/
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px; /*Moves the text only (the images are background images) to the right 30px*/
+    margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+    background-image: url('../images/phone.png'); /*Putting the link to images here in the css instead of html as usual. The .. takes you back up one directory level so you can over to 'images' dir*/
+}
+
+.contact-info li.mail a {
+    background-image: url('../images/mail.png');
+}
+
+.contact-info li.mail a {
+    background-image: url('../images/mail.png');
+}
+
+.contact-info li.twitter a {
+    background-image: url('../images/twitter.png');
+}
+
+
+/*-------------- COLORS ------------*/
+/*-------------- SITE BODY ---------*/
+body {
+    background-color: #fff;
+    color: #999;
+}
+/*------------- GREEN HEADER -------*/
+header {
+    background: darkgreen;
+    border-color: #599a68;
+}
+/*-----LINKS   #6ab47b----*/
+a {
+    color: blue;
+}
+/*------LOGO TEXT------*/
+h1, h2 {
+    color: #fff;
+}
+/* -----NAV BACKGROUND ON MOBILE DEVICES------*/
+nav {
+    background: #599a68;
+}
+/*----NAV LINK COLOR----*/
+nav a, nav a:visited {
+    color: #fff;
+}
+
+/*-----SELECTED NAV LINK COLOR-------*/
+nav a.selected, nav a:hover {
+    color: lightgray;
+}
