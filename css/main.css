@@ -8,7 +8,7 @@ body {
     max-width: 940px;
     margin: 0 auto;
     padding: 0 5%;
-    background:lightblue;
+    background:#5CB8E6;
 }
 
 a {
@@ -19,6 +19,12 @@ img {
     width: 252;
     height:  219;
     max-width: 100%; /* tells the images to fill the width of their parent container so when shrunk down, the images don't go outside the container */
+    opacity: 0.7;
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 h3  {
@@ -103,7 +109,6 @@ footer {
     float: left;
     width: 45%;
     margin: 2.5%;
-    background-color: red;
     color: yellow;
 }
 
@@ -162,13 +167,13 @@ footer {
 /*-------------- COLORS ------------*/
 /*-------------- SITE BODY ---------*/
 body {
-    background-color: #fff;
-    color: #999;
+    background-color: #5CB8E6;
+    color: #5CB8E6;
 }
 /*------------- GREEN HEADER -------*/
 header {
-    background: darkgreen;
-    border-color: #599a68;
+    background: black;
+    border-color: #5CB8E6;
 }
 /*-----LINKS   #6ab47b----*/
 a {
