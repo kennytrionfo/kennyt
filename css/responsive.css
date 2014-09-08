@@ -22,6 +22,14 @@
 	clear: left;
 }
 
+#resumes li {
+	width: 15%;
+}
+
+/*#resumes li:nth-child(4n) {
+	clear: left;
+}*/
+
 /********** ABOUT PAGE *************/
 .profile-pic {
 	float: left;
