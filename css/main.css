@@ -134,8 +134,9 @@ footer {
     display: block; /*allows us to use auto margins to center it on the page. Images display inline by default but I want this image to take up it's own space w/ it's own width and height. doing this give me more flexibility when setting desktop settings rather then just using inline and centering it on the page. */
     max-width: 150px;
     margin: 0 auto 30px;
-    border-radius: 20%;
+    border-radius: 100%;
     clear: both;
+    background: yellow;
 }
 
 /**********PAGE: CONTACT*************/
