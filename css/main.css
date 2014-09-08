@@ -8,7 +8,7 @@ body {
     max-width: 940px;
     margin: 0 auto;
     padding: 0 5%;
-    background:#5CB8E6;
+    background: lightgrey;
 }
 
 a {
@@ -167,17 +167,17 @@ footer {
 /*-------------- COLORS ------------*/
 /*-------------- SITE BODY ---------*/
 body {
-    background-color: #5CB8E6;
+    background-color: black;
     color: #5CB8E6;
 }
 /*------------- GREEN HEADER -------*/
 header {
-    background: black;
+    background: #0073d0;
     border-color: #5CB8E6;
 }
 /*-----LINKS   #6ab47b----*/
 a {
-    color: blue;
+    color: #fff;
 }
 /*------LOGO TEXT------*/
 h1, h2 {
@@ -185,7 +185,7 @@ h1, h2 {
 }
 /* -----NAV BACKGROUND ON MOBILE DEVICES------*/
 nav {
-    background: #599a68;
+    background: darkblue;
 }
 /*----NAV LINK COLOR----*/
 nav a, nav a:visited {
@@ -194,5 +194,5 @@ nav a, nav a:visited {
 
 /*-----SELECTED NAV LINK COLOR-------*/
 nav a.selected, nav a:hover {
-    color: lightgray;
+    color: #5CB8E6;
 }
