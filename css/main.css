@@ -8,7 +8,7 @@ body {
     max-width: 940px;
     margin: 0 auto;
     padding: 0 5%;
-    background: #FDF9F2;
+    background: #FBF3E5;
 }
 
 a {
@@ -189,7 +189,7 @@ a {
 }
 /*------LOGO TEXT------*/
 h1, h2 {
-    color: #fff;
+    color: #FBF3E5;
 }
 /* -----NAV BACKGROUND ON MOBILE DEVICES------*/
 nav {
@@ -197,10 +197,10 @@ nav {
 }
 /*----NAV LINK COLOR----*/
 nav a, nav a:visited {
-    color: #fff;
+    color: #FBF3E5;
 }
 
 /*-----SELECTED NAV LINK COLOR-------*/
 nav a.selected, nav a:hover {
-    color: #5CB8E6;
+    color: #fff;
 }
