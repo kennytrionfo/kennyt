@@ -64,7 +64,7 @@
 		margin-bottom: 20px;
 	}
 	header {
-		border-bottom: 5px solid darkblue; /*puts a little 5px border on bottom of header*/
+		border-bottom: 5px solid #595959; /*puts a little 5px border on bottom of header*/
 		margin-bottom: 60px;
 	}
 }

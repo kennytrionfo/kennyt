@@ -218,12 +218,12 @@ footer {
 /*-------------- COLORS ------------*/
 /*-------------- SITE BODY ---------*/
 body {
-    background-color: #454545;
+    background-color: #333333;
     color: #3B3B3B;
 }
 /*-------------  HEADER -------*/
 header {
-    background: #0073d0;
+    background: #182943;
     border-color: #5CB8E6;
 }
 /*-----LINKS   #6ab47b----*/
@@ -236,7 +236,7 @@ h1, h2 {
 }
 /* -----NAV BACKGROUND ON MOBILE DEVICES------*/
 nav {
-    background: darkblue;
+    background: #595959;
 }
 /*----NAV LINK COLOR----*/
 nav a, nav a:visited {
