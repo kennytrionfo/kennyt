@@ -232,7 +232,7 @@ a {
 }
 /*------LOGO TEXT------*/
 h1, h2 {
-    color: #fff;
+    color: #FBFAF8;
 }
 /* -----NAV BACKGROUND ON MOBILE DEVICES------*/
 nav {
@@ -240,7 +240,7 @@ nav {
 }
 /*----NAV LINK COLOR----*/
 nav a, nav a:visited {
-    color: #fff;
+    color: #FBFAF8;
 }
 
 /*-----SELECTED NAV LINK COLOR-------*/
