@@ -453,7 +453,7 @@
 		width: auto;
 		height: auto;
 		margin-right: 8px;
-		color: #fdb020;
+		color: #000042;
 		font-family: 'FontAwesome';
 		font-size: 10px;
 		font-style: normal;
@@ -929,7 +929,7 @@
 		top: 0;
 		left: 0;
 		height: 100%;
-		background-color: #fdb020;
+		background-color: #000042;
 	}
 
 	.progress-bar .progress-bar-outer .progress-bar-inner {
