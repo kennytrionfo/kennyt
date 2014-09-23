@@ -354,6 +354,15 @@
 
 		.cv-contact { top: 275px; }
 
+		.progress-bar-description {
+		display: block;
+		font-size: 18px;
+		font-weight: 700;
+		margin-bottom: 10px;
+		max-width: 60%;
+		position: relative;
+		}
+
 	}
 
 
@@ -403,6 +412,11 @@
 
 		.cv-item:last-child {
 			text-align: center;
+		}
+
+		.cv-item-devpoint {
+			text-align: center;
+			margin-bottom: 35px;
 		}
 
 		.cv-section-title img {
@@ -460,5 +474,6 @@
 			float: left;
 			width: 50%;
 		}
+		
 
 	}
